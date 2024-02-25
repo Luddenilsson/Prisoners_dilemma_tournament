@@ -158,7 +158,7 @@ def round_schedule(player_modules_list):
 if __name__ == "__main__":
     # Fill the list of the names of the files of the different players
     player_modules_list = ['Ludde1', 'Ludde2', 'Ingrid1','Mikael1', 'Mikael2', 'Axel1', 'David1', 'Mark1'] 
-    #player_modules_list = ['Ludde1', 'Ludde2', 'Axel1', 'Axel2', 'Mikael1', 'Mikael2', 'Mark1', 'Mark2', 'David1', 'David2', 'Ingrid1', 'Ingrid2', 'Philip1', 'Philip2', 'Nora1', 'Nora2']
+    
     # Run the tournament and get total scores
     tournament_results = run_tournament_round_robin(player_modules_list)
 
